@@ -3,5 +3,6 @@ AuctionsTableIAM:
   Action: 
   - dynamodb:putItem
   - dynamodb:Scan
+  - dynamodb:GetItem
   Resource: 
   - ${self:custom.AuctionsTable.arn}
